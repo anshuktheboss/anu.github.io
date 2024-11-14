@@ -94,3 +94,10 @@ header, footer {
 #home {
 	margin-right: auto;
 }
+
+.highlight {
+    color: red;       /* Changes the text color to red */
+    font-weight: bold; /* Makes the text bold */
+    font-style: italic; /* Makes the text italic */
+}
+
