@@ -1,29 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang=en>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
-    <link rel="stylesheet" href="styles.css">
+	<meta name="generator" content="Hugo 0.134.1">
+	<title></title>
+	<meta charset=utf-8 />
+	<link rel=stylesheet href=/style.css />
+	<link rel="icon" href="/favicon3.svg" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="preload" href="style.css" as="style" onload="this.rel='stylesheet'">
+	<meta name="description" content="savar&#39;s webpage" />
+	
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/bold/style.css" />
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/light/style.css" />
+	
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
-        </nav>
-    </header>
+	<header> 
+	<section id=home>
+		<a class="ph-light ph-skull" href=/></a>
+	</section>
+	<section class="stuff">
+		<a  href=/tools>Tools</a>
+	</section>
+</header>
 
-    <section class="hero">
-        <h1>Welcome to My World</h1>
-        <p>Wasssupppppp!!!!!</p>
-    </section>
+<main>
+<section id=container> 
+	<section>
+	<div id=stretch><h1>My name is Savar. This is my little corner on the web.</h1></div>
+	<span class="scroll"><span id=darr>&darr;</span> <a href="#about">Scroll for more</a></span>
+	<div id=about>
+	<h2>About</h2>
+	<img align=right src=https://github.com/savar95x.png aria-label="my picture" style="margin-left: 1rem; margin-bottom: 1rem; border-radius: 50%" />
+	<p>I am a second year undergraduate student pursuing Electrical Engineering at IIT Madras. I have a deep passion for natural <a href="https://en.wikipedia.org/wiki/Muscle_hypertrophy">hypertrophy</a> training, am an avid <a href="https://www.gnu.org/philosophy/free-sw.en.html">free software</a> and linux enthusiast, and a cinema lover.</p>
+	<p>During my leisure hours, I often find myself working on this website. Apart from that, I spend time trying to understand various training methodologies and philosophies in natural bodybuilding.</p>
+	<p>I started this blog as a platform to express my thoughts, articulate my ideas, and hopefully find solace through the process of writing.</p>
+	</div>
+	<div id=contact>
+	<h2>Connect</h2>
+	<section>
+	<a aria-label="my github" href=https://github.com/savar95x>Github</a>
+	<a aria-label="mail me" href=mailto:skaar513@gmail.com>Mail</a>
+	<a href=https://instagram.com/savar95x>Instagram</a>
+	<a href=https://open.spotify.com/user/313jbxjc2wnaedsbj3odyumuduim>Spotify</a>
+	<a href=https://www.youtube.com/channel/UCRgVAAxS8lsaf_WcDQYY5-Q>Youtube</a>
+	<a href=https://reddit.com/user/SkAAR513>Reddit</a>
+	<a href=https://discord.com/users/savar95x>Discord</a>
+	</section>
+	</div>
+	</section>
+</section>
+</main>
+<footer> 
+	<section>
+		<span>&copy; 2024</span>
+	</section>
+	<section class="stuff">
+		<a aria-label="source code" href=https://github.com/savar95x/savar95x.github.io>Source</a>
+	</section>
+</footer>
+</html>
 
-   
+<br>
+	<span class="fg-alt footer-text">The design credits go to <a class="fg-alt" href="https://andersnoren.se">andersnoren.se</a></span>
 </body>
 </html>
+<style>
+img {
+	width: 110px;
+}
+.scroll {
+	position: absolute;
+	bottom: 4vh;
+	display: inline;
+}
+.scroll a {
+	text-decoration: none;
+	margin-left: 1.9rem;
+}
+.scroll a:hover, #contact>section a:hover {
+	text-decoration: underline;
+}
+
+#darr {
+	font-size: 1.3rem;
+	font-weight: 700;
+	position: absolute;
+	animation: up-and-down linear 2s infinite;
+}
+#about {
+	margin: 8rem 0rem 3rem 0;
+}
+#contact>section a {
+	margin-right: min(4vw, 2rem);
+	text-decoration: none;
+}
+#stretch {
+	display: flex;
+	min-height: calc(100vh - 13rem);
+}
+#stretch > h1 {
+	margin: auto;
+}
+
+.footer-text {
+	font-size: 1rem;
+	margin-left: auto;
+}
+
+@keyframes up-and-down {
+	0%, 100% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(15%);
+	}
+}
+</style>
 
 
