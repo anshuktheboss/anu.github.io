@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400..700&display=swap');
+/*removes the unattractive defaults*/
+input{outline:none;border:none;} button{border:none;}
+
+img, svg, video {
+	max-width: 100%;
+	display: block;
+}
+
+:root {
+	--clr-fg: #d7c5a7;
+	--clr-fg-alt: #888;
+	--clr-bg: #202020;
+	--clr-bg-alt: #333;
+	--font: normal 400 clamp(1.05rem, 4vw, 1.25rem) "Archivo", sans-serif;
+	--font-h1: normal 700 clamp(2rem, 8vw, 3rem) "Archivo", sans-serif;
+}
+
+::selection { color: var(--clr-bg); background: var(--clr-fg-alt); }
+
+strong { font-weight: 600; }
+.fg-alt { color: var(--clr-fg-alt); }
+
+.ph-bold, .ph-light {
+	font-size: clamp(1.2rem, 4vw, 2rem); 
+}
+.ph-bold:hover, .ph-light:hover, .ph:hover {
+	text-decoration: none;
+}
+
+* {
+	line-height: 2rem;
+	scroll-behavior: smooth;
+	transition: all 0.1s ease-in-out 0s;
+	color-scheme: light dark;
+}
+
+body {
+	/* font-family: system-ui;*/
+	font: var(--font);
+	max-width: 800px;
+	margin: min(2.25rem,5vw) auto;
+	background: var(--clr-bg);
+	color: var(--clr-fg);
+	padding: 0rem 4vw;
+}
+
+#container {
+	min-height: calc(100vh - 5rem);
+	display: flex;
+	margin: 2rem 0;
+}
+
+#wrapper {
+	width: 100%;
+	margin: auto;
+}
+
+hr {
+	border: 0px solid var(--clr-bg-alt);
+	border-top: 1px solid var(--clr-bg-alt);
+}
+
+a {
+	color: var(--clr-fg);
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+
+header a, footer a {
+	text-decoration: none;
+}
+
+header a:hover, footer a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	color: var(--clr-fg);
+	font: var(--font-h1);
+}
+
+header, footer {
+	display: flex;
+}
+.stuff {
+	margin-left: auto;
+}
+.stuff>a{
+	margin-left: clamp(1rem, 4vw, 2rem) ;
+}
+#home {
+	margin-right: auto;
+}
