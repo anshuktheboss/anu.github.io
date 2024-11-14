@@ -96,8 +96,18 @@ header, footer {
 }
 
 .highlight {
-    color: red;       /* Changes the text color to red */
-    font-weight: bold; /* Makes the text bold */
-    font-style: italic; /* Makes the text italic */
-}
+            color: white;              /* White text color */
+            background-color: #ff6347; /* Tomato red background */
+            font-weight: bold;         /* Bold text */
+            font-style: italic;        /* Italic text */
+            padding: 0.2rem;           /* Padding around the text */
+            border-radius: 5px;        /* Rounded corners around the background */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for depth */
+            transition: color 0.3s, text-decoration-color 0.3s; /* Smooth transition on hover */
+        }
 
+        .highlight:hover {
+            color: #ff6347;            /* Change text color on hover */
+            text-decoration: underline; /* Underline on hover */
+            text-decoration-color: #007BFF; /* Blue underline */
+        }
