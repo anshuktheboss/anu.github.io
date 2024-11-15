@@ -115,3 +115,29 @@ header, footer {
 #contact {
     margin-top: 4rem; /* Increase space above Contact */
 }
+
+#writings {
+    margin-top: 3rem;
+}
+
+#writings h2 {
+    color: var(--clr-fg);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+#writings ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#writings li a {
+    text-decoration: underline;
+    color: var(--clr-fg);
+}
+
+#writings li a:hover {
+    color: var(--clr-fg-alt); /* Optional: change color on hover */
+    text-decoration: none;
+}
+
