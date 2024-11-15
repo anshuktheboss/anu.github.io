@@ -94,6 +94,12 @@ header, footer {
 #home {
 	margin-right: auto;
 }
+.ph-light {
+    font-size: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+    color ; #ff9200	
+}
 
 .highlight {
     color: #ff69b4;                  /* White text color */
