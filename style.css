@@ -103,15 +103,15 @@ header, footer {
         /* Padding around the text */
     
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for depth */
-    
-#contact section a {
-    text-decoration: underline; /* Ensures link is underlined */
+#about {
+    margin-bottom: 4rem; /* Increase space below About */
 }
 
-#contact section a:hover {
-    color: var(--clr-fg-alt); /* Optional: Change color on hover */
-    text-decoration: underline; /* Keep underline on hover */
+#writings {
+    margin-top: 4rem; /* Increase space above Writings */
+    margin-bottom: 4rem; /* Increase space below Writings */
 }
 
-
-
+#contact {
+    margin-top: 4rem; /* Increase space above Contact */
+}
