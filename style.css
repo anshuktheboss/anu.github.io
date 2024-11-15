@@ -104,4 +104,14 @@ header, footer {
     
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for depth */
     
+#contact section a {
+    text-decoration: underline; /* Ensures link is underlined */
+}
+
+#contact section a:hover {
+    color: var(--clr-fg-alt); /* Optional: Change color on hover */
+    text-decoration: underline; /* Keep underline on hover */
+}
+
+
 
