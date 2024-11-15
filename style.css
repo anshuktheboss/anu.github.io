@@ -96,20 +96,12 @@ header, footer {
 }
 
 .highlight {
-    color: white;                  /* White text color */
-    background-color: #ff69b4;     /* Pink background */
+    color: #ff69b4;                  /* White text color */
+         /* Pink background */
     font-weight: bold;             /* Bold text */
     font-style: italic;            /* Italic text */
-    padding: 0.2rem 0.4rem;        /* Padding around the text */
-    border-radius: 5px;            /* Rounded corners for the background */
+        /* Padding around the text */
+    
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for depth */
-    transition: color 0.3s, transform 0.3s; /* Smooth transition on hover */
-}
-
-.highlight:hover {
-    color: #ff69b4;                /* Change text color to pink on hover */
-    background-color: white;       /* Change background to white on hover */
-    transform: translateX(10px);   /* Move the text to the right */
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); /* Add more shadow for effect */
-}
+    
 
